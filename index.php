@@ -129,7 +129,7 @@
     // var locationId = <?php echo $_GET["id"]?>;
     function loaddata() {
         //  $("#graph").hide();
-        var url = "https://api.thingspeak.com/channels/1651582/feeds.json?results=2";
+        var url = "https://api.thingspeak.com/channels/1651582/feeds.json?results=1";
         $.getJSON(url)
             .done((data) => {
                 console.log(data)
